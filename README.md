@@ -10,12 +10,13 @@ While attempting routine documentation in Markdown, several **edge cases** prese
   - Nested list w/in a blockquote element (Example-2)
   - Nested list w/in blockquote (poor Markdown) (Example-3)
   - footnote (Example-4)
-- Troubleshooting:
-    - Bugs, Tips & Quirks —
-    - Notes —
-    - Notes: further research —
-- Tools used
+- Troubleshooting
+    - Bugs, Tips & Quirks
+    - Notes:
+    - Notes: further research
 - Resources
+    - Tools used
+    - Endnotes
 
 ## Samples
 
@@ -51,7 +52,7 @@ While attempting routine documentation in Markdown, several **edge cases** prese
 
 ## Troubleshooting
 
-### Bugs, Tips & Quirks —
+### Bugs, Tips & Quirks
 
 MacDown shows odd, non-conforming, and unexpected output compared to Marked2, for example.
 
@@ -59,7 +60,7 @@ MacDown shows odd, non-conforming, and unexpected output compared to Marked2, fo
 - SEE: Notes section (following) for breakdown of today’s problematic encounters (almost entirely resolved.)
     - MacDown continues to render nested blockquotes unpredictably (post woohoo.) However, after employing GitHub edit/preview feature, I feel confident with the final sample’s syntax.
 
-### Notes — WILT Summary
+### Notes: WILT Summary
 
 The tremendous and varied Markdown implementations in the field should be made clear. This led to confusion and frustration as I started, particularly in testing new ideas. The inconsistent rendering left me feeling helpless and stopped my ability to absorb even the basics of what otherwise should be a streamlined, get-to-work language. 
 
@@ -71,12 +72,14 @@ After much trial and error, I’ve settled on my stash of GitHub repos to demo a
 
 GitHub (for now) is not the ideal space to build a _starter_ developer house. It’s powerful while streamlined.. and yet daunting (to me, rn). On the other hand, as a repository of `.md` files, GitHub is perfect! I can’t get into too much trouble posting READMEs 😳. I’m excited to start my coding journey, knowing I have a safe place to test and host documentation–the lifeblood of the student.
 
-#### NOTES: Further research —
+### NOTES: Further research
    - Document history of Markdown.
    - Note Markdown’s current status.
    - Chronicle VIPs in the field.
 
-## Tools used
+## Resources
+
+### Tools used
 
 - Markdown (GitHub Flavored; CommonMark)
 - MacDown
@@ -88,7 +91,7 @@ GitHub (for now) is not the ideal space to build a _starter_ developer house. It
 - Vivaldi
 - MacOS Ventura, 13.5.1; MacBookPro 2023, M2 Max
 
-## Resources
+### Endnotes
 
 [^1]: NOTE: The syntax sample for **nesting a blockquote** w/in a list does not render well in **MacDown’s** parsed preview. The best I can achieve is to add two spaces after parent bullet item, which will indent the child blockquote correctly (but with the `>` appearing and lacking blockquote-like style.) I was/am okay with this “workaround” as MacDown is simply the editor and not a final host for any doc—Marked2 mirrors GitHub’s output correctly. ~~However, the two extra spaces will fail after a copy/paste from GitHub’s editor, as extra white space gets stripped out after a commit.~~ (I may be wrong about GitHub stripping white space, but MacDown rendering still is a bug, IMO.) I want to report this as a bug to MacDown and see the response. I’m satisfied the currently scripted syntax is correct for the purpose.
 
