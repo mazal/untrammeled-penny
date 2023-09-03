@@ -1,4 +1,4 @@
-# DEMO: a trial of a blockquote w/in a list ⬩ untrammeled-penny
+# DEMO: trial of a blockquote w/in a list ⬩ untrammeled-penny
 
 While attempting routine documentation in Markdown, a number of **edge cases** presented themselves. In essence, this "README.md" file is faux or trial README, using a number of the edge-cases encountered, namely: Nesting a blockquote w/in list element; Nesting a list w/in blockquote element; Deploying footnotes (understanding footnotes, while simply starting to make use of them!); Strikethrough; Old style title line (?).
 
