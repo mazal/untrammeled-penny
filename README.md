@@ -56,6 +56,8 @@ While attempting routine documentation in Markdown, a number of **edge cases** p
 MacDown shows odd, non-conforming, and unexpected output, compared to MacDown, for example.
 
 - ~~Footnotes are broken down into text, followed by a numbered list. However, nubmbered holds no content.~~  [EDIT: 🧰 Fixed!! Add space between colon and text (at the extended footnote.)]
+- SEE: Notes section (following) for breakdown of today's problematic encounters (almost entirely resolved.)
+    - MacDown continues to render nested blockquotes unpredictably (post woohoo.) However, after employing GitHub edit/preview feature, I feel confident with the final sample's syntax.
 
 ### Notes — WILT Summary
 
@@ -83,6 +85,7 @@ GitHub (for now) is not the ideal space to build a _starter_ developer house. It
 - GitHub.com (specifically Markdown Edit/Preview function)
 - untrammeled-penny repo[^9]
 - Vivaldi
+- MacOS Ventura, 13.5.1; MacBookPro 2023, M2 Max
 
 ## Resources
 
