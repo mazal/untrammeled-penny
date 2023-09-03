@@ -1,6 +1,6 @@
 # DEMO: trial of a blockquote w/in a list ⬩ untrammeled-penny
 
-While attempting routine documentation in Markdown, a number of **edge cases** presented themselves. In essence, this "README.md" file is faux or trial README, using a number of the edge-cases encountered, namely: **Nesting a blockquote** w/in list element; **Nesting a list** w/in blockquote element; Deploying footnotes (understanding footnotes, while simply starting to make use of them!); Strikethrough; Old style title line (?).
+While attempting routine documentation in Markdown, several **edge cases** presented themselves. In essence, this "README.md" file is faux or trial README, using a number of the edge-cases encountered, namely: **Nesting a blockquote** w/in list element; **Nesting a list** w/in blockquote element; Deploying footnotes (understanding footnotes, while simply starting to make use of them!); Strikethrough; Old style title line (?).
 
 ## Contained in This Document
 - Title
@@ -90,7 +90,7 @@ GitHub (for now) is not the ideal space to build a _starter_ developer house. It
 
 ## Resources
 
-[^1]: NOTE: The syntax sample for **nesting a blockquote** w/in a list does not render well in **MacDown’s** parsed preview. The best I can achieve is to add two spaces after parent bullet item, which will indent the child blockquote correctly (but with the `>` appearing and lacking blockquote-like style.) I was/am okay with this “workaround” as MacDown is simply the editor and not a final host for any doc—Marked2 mirrors GitHub’s output correctly. However, the two extra spaces will fail after a copy/paste from GitHub’s editor, as extra white space gets stripped out after a commit. I want to report this as a bug to MacDown and see the response. I’m satisfied the currently scripted syntax is correct for the purpose.
+[^1]: NOTE: The syntax sample for **nesting a blockquote** w/in a list does not render well in **MacDown’s** parsed preview. The best I can achieve is to add two spaces after parent bullet item, which will indent the child blockquote correctly (but with the `>` appearing and lacking blockquote-like style.) I was/am okay with this “workaround” as MacDown is simply the editor and not a final host for any doc—Marked2 mirrors GitHub’s output correctly. ~~However, the two extra spaces will fail after a copy/paste from GitHub’s editor, as extra white space gets stripped out after a commit.~~ (I may be wrong about GitHub stripping white space, but MacDown rendering still is a bug, IMO.) I want to report this as a bug to MacDown and see the response. I’m satisfied the currently scripted syntax is correct for the purpose.
 
 [^2]: Answered by [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists); Staff/moderator at Meta.stackexchange.com.
 
