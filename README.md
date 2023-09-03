@@ -1,6 +1,6 @@
 # DEMO: trial of a blockquote w/in a list ⬩ untrammeled-penny
 
-While attempting routine documentation in Markdown, a number of **edge cases** presented themselves. In essence, this "README.md" file is faux or trial README, using a number of the edge-cases encountered, namely: Nesting a blockquote w/in list element; Nesting a list w/in blockquote element; Deploying footnotes (understanding footnotes, while simply starting to make use of them!); Strikethrough; Old style title line (?).
+While attempting routine documentation in Markdown, a number of **edge cases** presented themselves. In essence, this "README.md" file is faux or trial README, using a number of the edge-cases encountered, namely: **Nesting a blockquote** w/in list element; **Nesting a list** w/in blockquote element; Deploying footnotes (understanding footnotes, while simply starting to make use of them!); Strikethrough; Old style title line (?).
 
 ## Contained in This Document
 - Title
@@ -38,13 +38,13 @@ While attempting routine documentation in Markdown, a number of **edge cases** p
 
 ### Example 3: Nested list w/in blockquote (poor markdown)[^2]
 
-“I'm guessing what you did was start the bullets after the 
-‘For example,’ with a single line break rather than a double break— ”  
+“I’m guessing what you did was start the bullets after the 
+‘For example,’ with a single line break rather than a double break—”  
 
 > For example:
 > - Trust Level
 - Confidence in advice given
-- Formal vs informal relationship
+- Formal vs. informal relationship
 - Things you talk about
 
 ### Example 4: footnote sample[^3]
@@ -53,27 +53,28 @@ While attempting routine documentation in Markdown, a number of **edge cases** p
 
 ### Bugs, Tips & Quirks —
 
-MacDown shows odd, non-conforming, and unexpected output, compared to MacDown, for example.
+MacDown shows odd, non-conforming, and unexpected output compared to Marked2, for example.
 
 - ~~Footnotes are broken down into text, followed by a numbered list. However, nubmbered holds no content.~~  [EDIT: 🧰 Fixed!! Add space between colon and text (at the extended footnote.)]
-- SEE: Notes section (following) for breakdown of today's problematic encounters (almost entirely resolved.)
-    - MacDown continues to render nested blockquotes unpredictably (post woohoo.) However, after employing GitHub edit/preview feature, I feel confident with the final sample's syntax.
+- SEE: Notes section (following) for breakdown of today’s problematic encounters (almost entirely resolved.)
+    - MacDown continues to render nested blockquotes unpredictably (post woohoo.) However, after employing GitHub edit/preview feature, I feel confident with the final sample’s syntax.
 
 ### Notes — WILT Summary
 
-It should be understood the tremendous and varied Markdown implementations that exist in the field. This led to confusion and frustration when I started out. Particularly as I was testing new ideas, the inconsistent rendering left me feeling helpless and stopped my ability to absorb even the basics of the language. 
+The tremendous and varied Markdown implementations that exist in the field should be made clear. This led to confusion and frustration as I started. Particularly in testing new ideas, the inconsistent rendering left me feeling helpless. It stopped my ability to absorb even the basics of what otherwise should be a streamlined, get-to-work language. 
 
-After research and due diligence, I have come to see CommonMark[^4] and GitHub flavored[^5] as the two essential and widely used implementations. CommonMark seemed intent on a consortium to determine standards, led by a top-flight corps of volunteer engineers, ranging from the cream of Stack Overflow/Exchange to GitHub, Pandoc, Reddit, et al. However their last "Spec" seems to have been developed in 2021, and none formally published, afaik.[^6] ‼️ MultiMark is yet another seemingly **important Markdown branch** I should consider.
+After research and due diligence, I see CommonMark[^4] and GitHub flavored[^5] as essential and widely used implementations. CommonMark seemed intent on a consortium to determine standards, led by a top-flight corps of volunteer engineers, ranging from the cream of Stack Overflow/Exchange to GitHub, Pandoc, Reddit, et al. However, their last “Spec” seems to have been developed two years ago, in 2021, and none has been formally published afaik.[^6] ‼️ MultiMark is yet another seemingly **important Markdown branch** I should document.
 
-I enjoy using MacDown Editor with Marked2 parser/renderer/previewer (oy!) + Zettlr for organizing attribuion. However, each new Markdwon concept, particularly newer elements, was generating confusion—not understanding if inconsistencies or unexpected behavior was due to user error (me) or differences in parsing engine, or settings, on and on. The useful (and wonderful) tool, Babelmark 3[^7] by Alexandre Mutel[^8] renders a comparison of over 250+ (‼️ cite?) Markdown "converts servers," along with relevant information attached to each run. It really is an amazing tool. Nonetheless, the "noise" of so many instances, along with a very reasonable 1000-line limit, makes the tool limited for day-to-day production use. 
+I enjoy using MacDown Editor with Marked2 parser/renderer/previewer (oy!), plus Zettlr for organizing attribuion. However, each new Markdwon concept, particularly newer elements, was generating confusion—not understanding if inconsistencies or unexpected behavior was due to user error (me) or differences in parsing engine or settings, on and on. The helpful (and excellent) tool, Babelmark 3[^7] by Alexandre Mutel [^8], renders a comparison of over 250+ (‼️ cite?) Markdown “converts servers,” along with relevant information attached to each run. It is a fantastic tool. Nonetheless, the “noise” of many instances and a very reasonable 1000-line limit limit the tool for day-to-day production use. 
 
-After much trial and error, I've settled on my stash of GitHub repos to demo, and test run final `.md` files—especially READMEs. I am confident that what renders well on GitHub will conform, and render well in most of spaces where I would want these kinds of files to be hosted. In fact, after cleaning up my "tests" here on GitHub, and pasting them back into my local directories, both MacDown and Marked2 behave beautifully in _EVERY SINGLE edge case!_ 🎉 (err, well most.. woohoo!)
+After much trial and error, I’ve settled on my stash of GitHub repos to demo and test run final `.md` files—especially READMEs. I am confident that what renders well on GitHub will conform and render well in most spaces where I want these files to be hosted. In fact, after cleaning up my “tests” here on GitHub and pasting them back into my local directories, both MacDown and Marked2 behave beautifully in _EVERY SINGLE edge case!_ 🎉 (err, well most.. woohoo!)
 
-GitHub (for now) is not the ideal space to build a _starter_ developer house. It's powerful while streamlined.. and yet daunting (to me, rn). On the other hand, as a repository of `.md` files GitHub is perfect! I can't get into too much trouble posting READMEs 😳. I'm excited to start my coding journey, knowing I have a safe place to test and host documentation–the lifeblood of the student.
+GitHub (for now) is not the ideal space to build a _starter_ developer house. It’s powerful while streamlined.. and yet daunting (to me, rn). On the other hand, as a repository of `.md` files, GitHub is perfect! I can’t get into too much trouble posting READMEs 😳. I’m excited to start my coding journey, knowing I have a safe place to test and host documentation–the lifeblood of the student.
 
 #### NOTES: Further research —
-   - History
-   - Current Status
+   - Document history of Markdown.
+   - Note Markdown’s current status.
+   - Chronicle VIPs in the field.
 
 ## Tools used
 
@@ -91,7 +92,7 @@ GitHub (for now) is not the ideal space to build a _starter_ developer house. It
 
 [^1]: Answered by [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists); Staff/moderator at Meta.stackexchange.com.
 
-[^2]: Catija (2020) (example of poor markdown).
+[^2]: Catija (2020) (example of poor Markdown).
 
 [^3]: [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists).
 
