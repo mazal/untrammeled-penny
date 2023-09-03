@@ -9,21 +9,23 @@ While attempting routine documentation in Markdown, a number of **edge cases** p
 - Example 3: Nested list w/in blockquote (poor markdown)
 - Example 4: footnote sample
 - Example 5: footnote sample
-- Notes: troubleshooting, tips, & quirks
+- Troubleshooting:
+    - Bugs, Tips & Quirks —
+    - Notes —
+    - Notes: further research —
 - Tools used
 - Resources
 
-
 ## Samples
 
-### Example 1: Nested Blockquote w/in list element[^1]
+### Example 1: Nested Blockquote w/in list element[^4]
 * Top Level
     * Integration
       1. YAML (in conjunction with Markdown)
          > YAML—often used for configuration files—stands for yet another markup language, or YAML ain’t markup language, emphasizing YAML is for data, not documents. It’s designed to be easy to read and understand and can be used in conjunction with other programming languages due to its flexibility and accessibility.
       1. Jekyll  
 
-### Example 2: Nested list w/in a blockquote element[^2]
+### Example 2: Nested list w/in a blockquote element[^5]
 “You write it like this— ”
 
 > For example:
@@ -33,7 +35,7 @@ While attempting routine documentation in Markdown, a number of **edge cases** p
 > - Formal vs. informal relationship
 > - Things you talk about
 
-### Example 3: Nested list w/in blockquote (poor markdown)[^3]
+### Example 3: Nested list w/in blockquote (poor markdown)[^6]
 
 “I'm guessing what you did was start the bullets after the 
 ‘For example,’ with a single line break rather than a double break— ”  
@@ -44,40 +46,65 @@ While attempting routine documentation in Markdown, a number of **edge cases** p
 - Formal vs informal relationship
 - Things you talk about
 
-### Example 4: footnote sample[^4]
+### Example 4: footnote sample[^7]
 
-### Example 5: footnote sample[^5]
+### Example 5: footnote sample[^8]
 
-## Notes: troubleshooting, tips, & quirks
+## Troubleshooting
+
+### Bugs, Tips & Quirks —
 
 MacDown shows odd, non-conforming, and unexpected output, compared to MacDown, for example.
 
-- ~~Footnotes are broken down into text, followed by numbered list. However, nubmbered holds no content.~~  [EDIT: 🧰 Fixed!! Add space between colon and text (at the extended footnote.)]
+- ~~Footnotes are broken down into text, followed by a numbered list. However, nubmbered holds no content.~~  [EDIT: 🧰 Fixed!! Add space between colon and text (at the extended footnote.)]
+
+### Notes — WILT Summary
+
+It should be understood, the tremendous and varied Markdown implementations that exist in the field. This led to confusion and frustration when I started out. Particularly as I was testing new ideas, the inconsistent rendering left me feeling helpless and stopped my ability to absorb even the basics of the language. 
+
+After research and due diligence, I have come to see CommonMark[^1] and GitHub flavored[^2] as the two essential and widely used implementations. CommonMark seemed intent on a consortium to determine standards, led by a top-flight corps of volunteer engineers, ranging from the cream of Stack Overflow/Exchange to GitHub, Pandoc, Reddit, et al. However their last "Spec" seems to have been developed in 2021, and none formally published, afaik.[^3] ‼️ MultiMark is yet another seemingly **important Markdown branch** I should consider.
+
+I enjoy using MacDown Editor with Marked2 parser/renderer/previewer (oy!) + Zettlr for organizing attribuion. However, each new Markdwon concept, particularly newer elements, was generating confusion—not understanding if inconsistencies or unexpected behavior was due to user error (me) or differences in parsing engine, or settings, on and on. The useful (and wonderful) tool, Babelmark 3[^x] by Alexandre Mutel[^y] renders a comparison of over 250+ (‼️ cite?) Markdown "converts servers," along with relevant information attached to each run. It really is an amazing tool. Nonetheless, the "noise" of so many instances, along with a very reasonable 1000-line limit, makes the tool limited for day-to-day production use. 
+
+After much trial and error, I've settled on my stash of GitHub repos to demo, and test run final `.md` files—especially READMEs. I am confident that what renders well on GitHub will conform, and render well in most of spaces where I would want these kinds of files to be hosted. In fact, after cleaning up my "tests" here on GitHub, and pasting them back into my local directories, both MacDown and Marked2 behave beautifully in _EVERY SINGLE edge case!_ 🎉 (err, well most.. woohoo!)
+
+GitHub (for now) is not the ideal space to build a _starter_ developer house. It's powerful while streamlined.. and yet daunting (to me, rn). On the other hand, as a repository of `.md` files GitHub is perfect! I can't get into too much trouble posting READMEs 😳. I'm excited to start my coding journey, knowing I have a safe place to test and host documentation–the lifeblood of the student.
+
+#### NOTES: Further research —
+   - History
+   - Current Status
 
 ## Tools used
 
-- Markdown (GitHub Flavored[^6]; CommonMark[^7])
+- Markdown (GitHub Flavored; CommonMark)
 - MacDown
 - Marked2
-- GitHub.com (specifically the Markdown Edit/Preview function available in each repo)
-- Vivaldi
 - Zettlr
-- untrammeled-penny repo[^8]
+- Babelmark 3
+- GitHub.com (specifically Markdown Edit/Preview function)
+- untrammeled-penny repo[^9]
+- Vivaldi
 
 ## Resources
 
-[^1]: Some text.
+[^1]: [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
-[^2]: Answer by [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists), staff/moderator meta.stackexchange.com.
+[^2]: [CommonMark](https://commonmark.org)—A strongly defined, highly compatible specification of Markdown.
 
-[^3]: Catija (2020) (example of poor markdown)
+[^3]: [CommonMark Spec](https://spec.commonmark.org)
 
-[^4]: [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists)
+[^4]: Some text.
 
-[^5]: Text2
+[^5]: Answer by [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists), staff/moderator meta.stackexchange.com.
 
-[^6]: [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+[^6]: Catija (2020) (example of poor markdown)
 
-[^7]: [CommonMark](https://commonmark.org)—A strongly defined, highly compatible specification of Markdown.
+[^7]: [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists)
 
-[^8]: [untrammeled-penny](https://github.com/mazal/untrammeled-penny) at GitHub
+[^8]: Text2
+
+[^9]: [untrammeled-penny](https://github.com/mazal/untrammeled-penny) at GitHub
+
+[^x]: [Babelmark 3](https://babelmark.github.io). Babelmark 1 & Babelmark 2 were developed and maintained by previous VIPs. (‼️ See history)
+
+[^y]: [Alexandre Mutel](http://xoofx.com)
