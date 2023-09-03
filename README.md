@@ -59,7 +59,7 @@ MacDown shows odd, non-conforming, and unexpected output, compared to MacDown, f
 
 ### Notes — WILT Summary
 
-It should be understood, the tremendous and varied Markdown implementations that exist in the field. This led to confusion and frustration when I started out. Particularly as I was testing new ideas, the inconsistent rendering left me feeling helpless and stopped my ability to absorb even the basics of the language. 
+It should be understood the tremendous and varied Markdown implementations that exist in the field. This led to confusion and frustration when I started out. Particularly as I was testing new ideas, the inconsistent rendering left me feeling helpless and stopped my ability to absorb even the basics of the language. 
 
 After research and due diligence, I have come to see CommonMark[^4] and GitHub flavored[^5] as the two essential and widely used implementations. CommonMark seemed intent on a consortium to determine standards, led by a top-flight corps of volunteer engineers, ranging from the cream of Stack Overflow/Exchange to GitHub, Pandoc, Reddit, et al. However their last "Spec" seems to have been developed in 2021, and none formally published, afaik.[^6] ‼️ MultiMark is yet another seemingly **important Markdown branch** I should consider.
 
@@ -86,21 +86,21 @@ GitHub (for now) is not the ideal space to build a _starter_ developer house. It
 
 ## Resources
 
-[^1]: Answer by [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists), staff/moderator meta.stackexchange.com.
+[^1]: Answered by [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists); Staff/moderator at Meta.stackexchange.com.
 
-[^2]: Catija (2020) (example of poor markdown)
+[^2]: Catija (2020) (example of poor markdown).
 
-[^3]: [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists)
+[^3]: [Catija (2020)](https://meta.stackexchange.com/questions/348274/blockquotes-should-be-formatted-to-support-bullet-points-and-numbered-lists).
 
 [^4]: [CommonMark](https://commonmark.org)—A strongly defined, highly compatible specification of Markdown.
 
-[^5]: [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+[^5]: GitHub Flavored Markdown [Spec](https://github.github.com/gfm/).
 
-[^6]: [CommonMark Spec](https://spec.commonmark.org)
+[^6]: CommonMark [Spec](https://spec.commonmark.org).
 
 [^7]: [Babelmark 3](https://babelmark.github.io). NOTE: Babelmark 1 & Babelmark 2 were developed and maintained by previous VIPs — ‼️ Document history.
 
-[^8]: [Alexandre Mutel](http://xoofx.com)
+[^8]: [Alexandre Mutel](http://xoofx.com)'s personal website.
 
-[^9]: [untrammeled-penny](https://github.com/mazal/untrammeled-penny) at GitHub
+[^9]: [untrammeled-penny](https://github.com/mazal/untrammeled-penny) repo at GitHub.
 
